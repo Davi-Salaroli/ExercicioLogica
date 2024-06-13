@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+/*
+ No seu jogo de RPG, os personagens precisam comprar poções mágicas para se curar ou adquirir habilidades temporárias. Em uma loja de poções, 
+ os jogadores podem comprar poções à vista com desconto. Para calcular o valor a ser pago à vista, escreva um algoritmo que realize as seguintes tarefas: 
+
+Leia o valor do litro da poção, armazenando-o na variável valor_litro. 
+Leia a quantidade de litros que você deseja abastecer no frasco, armazenando-a na variável litros. 
+Calcule o valor total da poção, multiplicando o valor do litro pela quantidade de litros abastecidos. 
+Calcule o valor com desconto, aplicando 10% de desconto sobre o valor total da poção. 
+Exiba o valor a ser pago à vista e o valor com desconto na tela. 
+*/
+
+var valor_litro = parseFloat(prompt("digite o valor do litro: "))
+var litros = parseFloat(prompt("digite a quantide de litros: "))
+var valor_porção = valor_litro * litros
+var desconto =  valor_porção - (valor_porção * 0.1)
+
+alert(" o valor da porção é " + valor_porção + " sem desconto, com desconto fica " + desconto)
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    
+</body>
+
+</html>
+<script>
+
+    let name = prompt("Bom dia, Qual é o seu nome? ")
+    let client_type = parseInt(prompt("Olá senhor(a) " + name + ", para saber qual cliente você é digite \n 1 Residencia \n 2 Comercio \n 3 Industria"))
+    let spent = parseInt(prompt(name + " digite quantos KW/h que você consumiu "))
+    if (client_type == 1) {
+
+        let electricity_bill = spent * 0.60
+        alert("senhor(a) " + name + ", sua conta de luz foi de " + electricity_bill)
+
+    } else if (client_type == 2) {
+
+        electricity_bill = spent * 0.48
+        alert("senhor(a) " + name + ", sua conta de luz foi de " + electricity_bill)
+
+    } else if (client_type == 3) {
+
+        electricity_bill = spent * 1.29
+        alert("senhor(a) " + name + ", sua conta de luz foi de " + electricity_bill)
+    }
+
+</script>

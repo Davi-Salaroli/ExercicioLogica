@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+</body>
+
+</html>
+<script>
+
+    let name = prompt("digite seu nome")
+    let note1 = parseFloat(prompt("digite sua primeira nota"))
+    let note2 = parseFloat(prompt("digite sua segunda nota"))
+    let note3 = parseFloat(prompt("digite sua terceira nota"))
+    let average = (note1 + note2 + note3) / 3
+
+    if (average >= 8 || average >= 10) {
+        alert(name + ", você ficou com uma média de: " + average + ", logo sua classifição é A")
+    } else if (average >= 7 || average < 8.) {
+        alert(name + ", você ficou com uma média de: " + average + ", logo sua classifição é B")
+    } else if (average >= 6 || average < 7) {
+        alert(name + ", você ficou com uma media de: " + average + ", logo sua classifição é C")
+    } else if (average >= 5 || average < 6) {
+        alert(name + ", você ficou com uma média de: " + average + ", logo sua classifição é D")
+    } else {
+        alert(name + ", você ficou com uma média de: " + average + ", logo sua classifição é F")
+    }
+
+</script>

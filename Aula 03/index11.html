@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>escola “APRENDER”</title>
+</head>
+
+<body>
+
+</body>
+
+</html>
+
+<script>
+
+    let name = prompt(" Bom dia, Qual é o seu nome? ")
+    let level_teacher = parseInt(prompt(" olá professor " + name + ", digite o número do seu nivel: "))
+
+    if (level_teacher == 1) {
+        let hours = parseInt(prompt("olá professor " + name + ",você recebe 12 reais por hora. " + "\n" + " digite quantas horas você fez: "))
+        let wage = 12 * hours
+        alert("você recebeu um salario de: " + wage + "$ reais")
+    }
+    else if (level_teacher == 2) {
+        let hours = parseInt(prompt("olá professor " + name + ",você recebe 17 reais por hora. " + "\n" + " digite quantas horas você fez: "))
+        let wage = 17 * hours
+        alert("você recebeu um salario de: " + wage + "$ reais")
+
+    } else if (level_teacher == 3) {
+        let hours = parseInt(prompt("olá professor " + name + ",você recebe 25 reais por hora. " + "\n" + " digite quantas horas você fez: "))
+        let wage = 25 * hours
+        alert("você recebeu um salario de: " + wage + "$ reais")
+    } else {
+        alert("esse nivel não existe")
+    }
+
+</script>
